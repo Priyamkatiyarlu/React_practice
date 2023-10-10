@@ -1,10 +1,38 @@
 .App {
   text-align: center;
+  font-size: 40px;
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.parent{
+  height: auto;
+  width: 40%;
+  flex-direction: row;
+  background-color: yellow;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: #282c34;
+  
+}
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-items: center; */
+  background-color: rgb(255, 174, 0);
+}
+.innerEliements{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media (prefers-reduced-motion: no-preference) {

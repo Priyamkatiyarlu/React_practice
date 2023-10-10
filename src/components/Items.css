@@ -1,0 +1,19 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+
+}
+.first{
+    align-items: center;
+    font-size: 28px;
+    background-color: blueviolet;
+    width: 470px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: red;
+   
+}
